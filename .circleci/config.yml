@@ -1,0 +1,32 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/gti
+
+    docker:
+      - image: node:8
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - gti-{{ .Branch }}-{{ checksum "package.json" }}
+            - gti-{{ .Branch }}
+            - gti-master-{{ checksum "package.json" }}
+            - gti-master
+
+      - run:
+          name: Install dependencies
+          command: yarn
+
+      - run:
+          name: Running tests
+          command: yarn test
+
+      - save_cache:
+          key: gti-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - ~/.yarn
+            - ~/gti/node_modules

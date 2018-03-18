@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-transformer-ipynb",
+  "version": "0.0.1",
+  "description": "Gatsby transformer plugin for jupyter files",
+  "author": "Nathan Gaberel <nathan@gnab.fr>",
+  "scripts": {
+    "test": "prettier **/*.js -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/n6g7/gatsby-transformer-ipynb.git"
+  },
+  "keywords": [
+    "gatsby",
+    "ipynb",
+    "jupyter",
+    "plugin",
+    "transformer"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "notebookjs": "^0.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  }
+}
