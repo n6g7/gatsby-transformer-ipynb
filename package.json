@@ -22,6 +22,6 @@
     "notebookjs": "^0.3.0"
   },
   "devDependencies": {
-    "prettier": "^1.11.1"
+    "prettier": "^1.16.2"
   }
 }
