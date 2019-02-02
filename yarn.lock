@@ -347,9 +347,10 @@ mime-types@^2.1.12, mime-types@~2.1.17:
   dependencies:
     mime-db "~1.33.0"
 
-notebookjs@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/notebookjs/-/notebookjs-0.3.0.tgz#63401458d245ca020b1ab66e9dc3377319c135ec"
+notebookjs@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/notebookjs/-/notebookjs-0.4.1.tgz#95c3b5f6cb4ea615e0ad46e90c4272d73584400a"
+  integrity sha512-01JZQ+IIi6pPsrTbNoBR2nwIe23f1mh1GUYHHmCzYxcs8RqHmRv+Avdx/vTZppP6lD+V5h/y1fWKXnb4qfHCOQ==
   dependencies:
     ansi_up ">=1.1.3"
     jsdom ">=11.6.2"
