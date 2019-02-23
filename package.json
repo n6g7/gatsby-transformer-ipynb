@@ -19,7 +19,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "notebookjs": "^0.3.0"
+    "notebookjs": "^0.4.2"
   },
   "devDependencies": {
     "prettier": "^1.11.1"
