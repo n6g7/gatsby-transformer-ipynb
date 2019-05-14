@@ -12,6 +12,7 @@
   },
   "keywords": [
     "gatsby",
+    "gatsby-plugin",
     "ipynb",
     "jupyter",
     "plugin",
